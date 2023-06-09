@@ -1,0 +1,9 @@
+{
+  "name": "orb-components",
+  "version": "0.0.1",
+  "description": "My shared react components",
+  "main": "index.js",
+  "author": "Rob Mazoros",
+  "license": "MIT",
+  "private": false
+}
