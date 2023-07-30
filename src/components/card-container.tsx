@@ -1,3 +1,4 @@
+"use client";
 import { Transition } from '@headlessui/react';
 import { XMarkIcon, ChevronDoubleDownIcon, ChevronDoubleUpIcon } from '@heroicons/react/24/outline';
 import React from 'react';
