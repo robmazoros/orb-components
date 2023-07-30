@@ -1,9 +1,28 @@
 {
   "name": "orb-components",
-  "version": "0.0.1",
-  "description": "My shared react components",
-  "main": "index.js",
-  "author": "Rob Mazoros",
+  "version": "0.0.2",
+  "description": "My Shared React components",
+  "main": "index.ts",
+  "author": "ARM",
   "license": "MIT",
-  "private": false
+  "private": true,
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@fontsource/roboto": "latest",
+    "@headlessui/react": "latest",
+    "@heroicons/react": "latest"
+    
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "typescript": "^5.1.3",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/typography": "latest",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  },
+  "packageManager": "yarn@3.5.0"
 }
