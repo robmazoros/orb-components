@@ -1,6 +1,6 @@
 {
   "name": "orb-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My Shared React components",
   "main": "index.ts",
   "author": "ARM",
