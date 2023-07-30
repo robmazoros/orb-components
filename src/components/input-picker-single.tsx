@@ -1,7 +1,8 @@
 import { Listbox, Transition } from "@headlessui/react";
 import React from "react";
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import { ClassNames } from "@/types/utils";
+import { ClassNames } from "../utils/class-utils";
+
 
 export interface InputPickerItem {
     id: string, label: string, secondaryText?: string
