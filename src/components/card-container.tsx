@@ -54,6 +54,7 @@ export default function CardContainer(props: {
                                 type="button"
                                 className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                                 onClick={() => setIsCollapsed((prev) => !prev)}
+                                title={isCollapsed ? 'Show Details' : 'Hide Details'}
                             >
                                 <span className="sr-only">Close</span>
                                 {

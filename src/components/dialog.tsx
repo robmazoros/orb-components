@@ -1,7 +1,6 @@
 import {ReactNode} from "react";
 import {Dialog} from '@headlessui/react';
 import CardContainer from "./card-container";
-// import { CardContainer } from "orb-components";
 
 export default function DialogBase(props: {
     isOpen: boolean,
@@ -30,7 +29,8 @@ export default function DialogBase(props: {
                         cardHeader={props.dialogTitle}
                         cardHeaderSubText={props.dialogHeaderSubText}
                         cardActionArea={props.dialogActionArea}                        
-                        
+                        isCloseable={true}
+                        onCloseToggle={(isCollapsed) => !!isCollapsed ?? props.onClose()}
                     >
                         {props.children}
                     </CardContainer>
